@@ -1,0 +1,23 @@
+[user]
+name = {{ .name }}
+email = {{ .email }}
+signingkey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMS1Jz5Cchya+DHUuRj6Itu5Nr3Jdui36Sb/tkLC0yERu6HeZf9nWwDvaY7K3PLo8NcvBUNpnBB8lvmGwxE7yMA= ecdsa-sha2-nistp256
+
+[commit]
+gpgsign = true
+
+[core]
+pager = delta
+
+[gpg]
+format = ssh
+
+[gpg.ssh]
+allowedSignersFile = ~/.ssh/allowed_signers
+
+[init]
+defaultBranch = master
+
+[tag]
+gpgsign = true
+

@@ -1,0 +1,6 @@
+Host *
+  IdentityAgent ~/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+Host codeberg.org codeberg
+  User {{ .name }}
+  Hostname codeberg.org

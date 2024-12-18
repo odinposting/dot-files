@@ -1,0 +1,9 @@
+.lesshst
+.npm
+.qt_material
+.terminfo
+.vim/
+.viminfo
+.python_history
+.zsh_sessions/
+.zsh_history
